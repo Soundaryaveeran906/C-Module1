@@ -1,3 +1,4 @@
+
 # Conditional Statements: ASCII Value Printer in C
 
 ## Aim
@@ -13,6 +14,7 @@ To write a C program that prints the ASCII value of the characters 'a', 'z', 'A'
 4. If ch matches any of these cases, print its ASCII value using the printf function with %d format specifier.
 
 ## Program
+```
 #include <stdio.h>
 int main() 
 {
@@ -35,5 +37,7 @@ int main()
 }
 ```
 ## Output
+![image](https://github.com/user-attachments/assets/c8b0e0b9-d269-4000-b04f-a4114c23c6d7)
 
 ## Result
+The ASCII value of the characters 'a', 'z', 'A', or 'Z' using a switch statement. If any other character is entered, the program prompts the user to enter a valid alphabet is written
