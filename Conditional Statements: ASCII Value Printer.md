@@ -13,8 +13,27 @@ To write a C program that prints the ASCII value of the characters 'a', 'z', 'A'
 4. If ch matches any of these cases, print its ASCII value using the printf function with %d format specifier.
 
 ## Program
-Add code here
+#include <stdio.h>
+int main() 
+{
+    char ch;
+    printf("Enter a character (a, z, A, Z): ");
+    scanf(" %c", &ch); 
+    switch (ch) 
+    {
+        case 'a':
+        case 'z':
+        case 'A':
+        case 'Z':
+            printf("The ASCII value of '%c' is %d\n", ch, ch);
+            break;
+        default:
+            printf("Please enter a valid alphabet (a, z, A, or Z).\n);
+    }
 
+    return 0;
+}
+```
 ## Output
 
 ## Result
